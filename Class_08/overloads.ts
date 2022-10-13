@@ -19,4 +19,6 @@ function addNumbers(a: number, b: number): number {
   function add2(a: any, b: any): any {
      return a + b;
   }
-  add2()
+ console.log(add2(4,9));
+ console.log(add2("Murat","Irmak"));
+
