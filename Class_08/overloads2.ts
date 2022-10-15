@@ -4,4 +4,4 @@ function sum(a: number, b: number, c?: number): number {
     if (c) return a + b + c;
     return a + b;
 }
-sum()
+console.log(sum(4,5))

@@ -1,5 +1,5 @@
 const password = "5141238899";
-const containsNumber = /(\d{3})\d+/;
+const containsNumber = /\d+/;
 
 let passwordIsComplex = containsNumber.exec(password);
 
